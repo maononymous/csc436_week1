@@ -1,7 +1,30 @@
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 body{
     font-family: monospace;
+    background: var(--bg);
+    color: var(--fontColor);
 }
 
 ul{
-    font-family: helvetica;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    color: var(--bg);
+    background-color: var(--fontColor);
+}
+
+.lightTheme{
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+
+.darkTheme{
+    --bg: var(--black);
+    --fontColor: var(--green);
 }
